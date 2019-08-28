@@ -1,0 +1,134 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif; }
+
+.full-Box {
+  width: 100%;
+  height: auto; }
+
+.classification-nn-ctr {
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin: 20px auto;
+  width: 100%; }
+  .classification-nn-ctr .classification-wrapper {
+    display: table;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box; }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .classification-nn-ctr .classification-wrapper {
+        padding-bottom: 0px; } }
+    @media screen and (max-width: 640px) {
+      .classification-nn-ctr .classification-wrapper {
+        padding: 0px; } }
+    .classification-nn-ctr .classification-wrapper div {
+      display: table-cell;
+      width: 60%; }
+      @media screen and (max-width: 640px) {
+        .classification-nn-ctr .classification-wrapper div {
+          display: table-row; } }
+    .classification-nn-ctr .classification-wrapper div:nth-child(1) {
+      text-align: end; }
+      @media screen and (max-width: 640px) {
+        .classification-nn-ctr .classification-wrapper div:nth-child(1) {
+          text-align: center; } }
+    .classification-nn-ctr .classification-wrapper div:nth-child(2) {
+      text-align: -webkit-left; }
+      @media screen and (max-width: 640px) {
+        .classification-nn-ctr .classification-wrapper div:nth-child(2) {
+          text-align: center; } }
+  .classification-nn-ctr h2 {
+    font-size: 30px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 0px;
+    border: 1px solid #ffffff;
+    border-bottom: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-family: cursive }
+  .classification-nn-ctr .input-button {
+    background-color: #e10855;
+    color: white;
+    border-radius: 20px;
+    font-family: cursive;
+    font-weight: inherit;
+    padding: 5px 80px;
+    cursor: pointer;
+    border: 1px solid #e10855;
+    font-size: 12px;
+    margin: 20px 5px;
+    white-space: nowrap;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+  .classification-nn-ctr .input-button:hover {
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3), 0 5px 10px rgba(0, 0, 0, 0.22); }
+  .classification-nn-ctr .input-button:focus {
+    outline: none; }
+  .classification-nn-ctr .classification-output {
+    display: flex;
+    width: 100%;
+    background-color: #3949ab; }
+  .classification-nn-ctr .out-box {
+    display: table-cell;
+    width: 50%;
+    margin: 0px auto;
+    padding: 0px 10px 10px 10px;
+    background-color: #ffffff; }
+    .classification-nn-ctr .out-box p {
+      color: #e10855;
+      margin-top: 0px;
+      margin-bottom: 0px !important;
+      font-family: cursive;
+      font-size:25}
+    .classification-nn-ctr .out-box b {
+      color: #4e7cdd;
+      font-size: 25px; }
+      @media screen and (max-width: 640px) {
+        .classification-nn-ctr .out-box b {
+          font-size: 18px; } }
+    @media screen and (max-width: 640px) {
+      .classification-nn-ctr .out-box {
+        width: 100%; } }
+  @media screen and (max-width: 640px) {
+    .classification-nn-ctr select {
+      margin-top: 25px; } }
+  .classification-nn-ctr .predict-button {
+    background-color: #4e7cdd;
+    border: 1px solid #4e7cdd;
+    color: black; }
+  .classification-nn-ctr .predict-button:hover {
+    background-color: #4e7cdd; }
+  .classification-nn-ctr #demo-progress {
+    width: 100%;
+    background-color: #ddd; }
+  .classification-nn-ctr #results-box {
+    padding: 0px 10px !important;
+    width: 100% !important; }
+  .classification-nn-ctr #load-button {
+    position: relative; }
+  .classification-nn-ctr #load-button span {
+    display: block;
+    width: 22px;
+    font-size: 11px;
+    border-radius: 50%;
+    padding: 3px;
+    background-color: #ebebeb;
+    color: black;
+    position: absolute;
+    top: -30px;
+    left: 35px;
+    font-weight: bold; }
+  .classification-nn-ctr #progress-bar {
+    width: 1%;
+    height: 30px;
+    background-color: #4CAF50; }
+  .classification-nn-ctr #predict-list {
+    margin: 0px;
+    color: #4e7cdd;
+    padding-bottom: 20px;
+    font-size: 15px;
+    font-style:inherit; }
+
+/*# sourceMappingURL=app.css.map */
